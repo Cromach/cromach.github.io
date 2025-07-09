@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet">
+        <title>Arboretum</title>
+    </head>
+    <body>
+        <h1>Arboretum</h1>
+        <p>Il n’est nul lieu où la beauté de la nature n’est plus évidente qu’au sein des couleurs resplendissantes d’un arboretum. 
+            Dans Arboretum, vous créez des allées soigneusement planifiées afin que vos visiteurs s'y promènent en contemplant les explosions colorées des bourgeons et des feuilles. 
+            Le joyeux cerisier en ºeurs, le cornouiller odorant, le puissant chêne… tous ont leur place dans ce havre de paix. Mais ne vous y trompez pas : malgré ce cadre paisible, il s’agit bel et bien d’un jeu compétitif. 
+            Vous devrez décider quelles cartes planter dans votre arboretum, et quelles cartes conserver en main, puisque seul le plus expert des conservateurs obtiendra les hommages des amoureux de la nature.</p>
+        <div class="table-wrapper">
+            <table>
+                <caption>Liste des essences</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Couleur</th>
+                    <th scope="col">Essence</th>
+                    <th scope="col">Couleur</th>
+                    <th scope="col">Essence</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Rose <img class="logo" src="img/essence/Magnolia.png"></th>
+                    <th style="color: pink" scope="row">Magnolia</th>
+                    <th scope="row">Blanc <img class="logo" src="img/essence/Dogwood.png"></th>
+                    <th style="color: lightgray" scope="row">Cornouiller</th>
+                </tr>
+                <tr>
+                    <th scope="row">Vert <img class="logo" src="img/essence/Willow.png"></th>
+                    <th style="color: darkolivegreen" scope="row">Saule</th>
+                    <th scope="row">Rouge <img class="logo" src="img/essence/Maple.png"></th>
+                    <th style="color: indianred" scope="row">Erable</th>
+                </tr>
+                <tr>
+                    <th scope="row">Violet <img class="logo" src="img/essence/Jacaranda.png"></th>
+                    <th style="color: rebeccapurple" scope="row">Jacaranda</th>
+                    <th scope="row">Marron <img class="logo" src="img/essence/Oak.png"></th>
+                    <th style="color: saddlebrown" scope="row">Chêne</th>
+                </tr>
+                <tr>
+                    <th scope="row">Gris <img class="logo" src="img/essence/Olive.png"></th>
+                    <th style="color: GrayText" scope="row">Olivier</th>
+                    <th scope="row">Bleu <img class="logo" src="img/essence/Lilac.png"></th>
+                    <th style="color: dodgerblue" scope="row">Lilas</th>
+                </tr>
+                <tr>
+                    <th scope="row">Jaune <img class="logo" src="img/essence/Cassia.png"></th>
+                    <th style="color: #e3d830" scope="row">Cassia</th>
+                    <th scope="row">Orange <img class="logo" src="img/essence/RoyalPoinciana.png"></th>
+                    <th style="color: darkorange" scope="row">Flamboyant</th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2>Mise en place</h2>
+        <ol>
+            <li>
+                <b>Préparez les cartes.</b> Il y a 80 cartes réparties entre 10 couleurs différentes, chaque couleur représente une essence et compte 8 cartes numérotées de 1 à 8.
+                N’utilisez qu’un certain nombre d’essences en fonction du nombre de joueurs.
+                <ul>
+                    <li>Pour une partie à 4 joueurs &rarr; utilisez les 10 essences (80 cartes)
+                    <li>Pour une partie à 3 joueurs &rarr; retirez 2 essences de votre choix
+                        (pour avoir 64 cartes)</li>
+                    <li>Pour une partie à 2 joueurs &rarr; retirez 4 essences de votre choix
+                        (pour avoir 48 cartes)</li>
+                </ul>
+            </li>
+            <li>
+                <b>Déterminez le premier joueur.</b> Le dernier joueur ayant arrosé une plante est désigné comme étant le premier joueur, et entamera le premier tour de jeu.</li>
+            <li>
+                <b>Distribuez les cartes.</b> Le joueur situé à la droite du premier joueur est le Donneur. Il mélange les cartes et distribue 7 cartes à chaque joueur, face cachée. 
+                Ces cartes constituent leur main de départ. Les cartes restantes sont placées en pile face cachée au centre de la table, il s’agit de la pioche.
+            </li>
+        </ol>
+        <h3>Exemple d'une partie à 3 joueurs</h3>
+        <img src="img/setupexample.png"/>
+        
+        <h2> Comment jouer </h2>
+        <p>Les joueurs jouent à tour de rôle, en commençant par le premier joueur et en poursuivant dans le sens horaire. 
+            À votre tour, vous devez réaliser les actions suivantes, dans l’ordre : piocher 2 cartes, jouer 1 carte et l’ajouter à votre arboretum, défausser 1 carte.</p>
+        <ol>
+            <li>
+                <b>Piocher 2 cartes.</b> 
+                Piochez 2 cartes et ajoutez-les à votre main. 
+                Pour chaque carte à piocher de cette manière, vous pouvez choisir soit la première carte de la pioche, soit la première carte visible de n’importe quelle défausse, y compris la vôtre ! 
+                Vous pouvez piocher vos deux cartes au même endroit, ou à deux endroits différents. 
+                Si vous prenez votre première carte depuis la pioche, vous êtes autorisé à la consulter avant de décider où vous allez piocher la suivante.
+            </li>
+            <li>
+                <b>Jouer une carte et l’ajouter à votre arboretum.</b> 
+                Lors de votre premier tour de jeu, jouez une carte face visible depuis votre main et posez-la devant vous. 
+                Il s’agit du point de départ de votre arboretum. 
+                Lors de chacun de vos tours suivants, vous devrez poser vos cartes de manière adjacente (horizontalement ou verticalement) à au moins 1 carte déjà présente dans votre arboretum.
+            </li>
+            <li>
+                <b>Défausser 1 carte.</b>
+                Défaussez une carte depuis votre main vers votre pile de défausse personnelle, face visible. 
+                Il peut s’agir de n’importe quelle carte de votre main, y compris l’une de celles que vous avez piochées ce tour-ci. 
+                Assurez-vous que vos adversaires puissent voir votre pile de défausse. 
+                Après avoir défaussé, vous devez avoir exactement 7 cartes en main.
+            </li>
+        </ol>
+        
+        <h2> Fin de partie </h2>
+        <p>Lorsqu’il n’y a plus de cartes dans la pioche, c’est la fin de la partie.
+            Le joueur ayant pioché la dernière carte termine son tour normalement, puis les points sont comptabilisés.</p>
+        
+        <h3>Obtenir le droit de marquer des points grâce à ses Allées</h3>
+        <p>Le Donneur énumère les essences d’arbres dans l’ordre donné sur la liste des essences. 
+            À chaque essence ainsi appelée, les joueurs révèlent les cartes correspondantes qu’ils ont en main. 
+            Le joueur révélant depuis sa main les cartes de cette essence dont la somme est la plus élevée, gagne le droit de marquer les points de l'allée de cette essence qui rapporte le plus (mais pas nécessairement la plus longue) dans son arboretum. 
+            En cas d'égalité entre plusieurs joueurs, chacun d'entre eux gagne ce droit.</p>
+        <p><b>Exception !</b> Si vous avez en main la carte "8" d'une essence donnée, et que l'un de vos adversaires possède en main la carte "1" de cette même essence, alors la valeur de votre carte "8" est de "0" au moment de comptabiliser les valeurs les plus élevées pour cette essence. 
+            (La carte "1" a toujours une valeur de "1".)</p>
+        <p><b>Note 1 :</b> il est tout à fait possible de gagner le droit de remporter des points pour une essence que vous ne possédez pas dans votre arboretum. 
+            Dans ce cas précis, vous ne remporterez aucun point pour cette essence, mais vous aurez certainement empêché un de vos adversaires d'en marquer.</p>
+        <p><b>Note 2 :</b> si personne ne possède en main de cartes d'une essence donnée, alors tous les joueurs gagnent le droit de marquer les points de leur allée qui rapporte le plus.</p>
+        
+        <h3>Comptabiliser les points des Allées</h3>
+        <p>Une allée se compose d'une suite de cartes orthogonalement adjacentes et de valeur croissante, dont la première et la dernière cartes doivent être de la même essence. 
+            Chaque carte composant l'allée doit être d'une valeur supérieure à la carte la précédant, mais notez bien que les valeurs ne se suivent pas obligatoirement. 
+            Les seules cartes qui doivent absolument correspondre à l'essence grâce à laquelle vous espérez marquer des points sont la première et la dernière carte de l'allée. 
+            Les cartes intermédiaires peuvent être de n'importe quelle essence.</p>
+        <p>Voici la marche à suivre pour comptabiliser les points d'une allée :</p>
+        <ul>
+            <li>Marquez 1 point pour chaque carte composant l'allée.</li>
+            <li>Marquez 1 point supplémentaire par carte composant l'allée si cette dernière est longue d'au moins 4 cartes et que toutes les cartes de l'allée sont de la même essence.</li>
+            <li>Marquez 1 point supplémentaire si l'allée commence par une carte de valeur "1".</li>
+            <li>Marquez 2 points supplémentaires si l'allée s'achève par une carte de valeur "8".</li>
+        </ul>
+        <p><b>Note 1 :</b> une même carte peut être utilisée dans plusieurs allées (d'essences diérentes).</p>
+        <p><b>Note 2 :</b> même si vous possédez plusieurs allées valables pour une même essence, vous ne pourrez comptabiliser de points que pour une seule. 
+            Alors choisissez celle qui en rapporte le plus !</p>
+
+        <h3>Désigner le vainqueur</h3>
+        <p>Additionnez les points remportés par les joueurs grâce à leurs différentes allées (utilisez pour cela le bloc de score fourni). 
+            Le joueur qui a le plus de points remporte la partie ! En cas d'égalité, c'est le joueur qui possède le plus d'essences d'arbre diérentes dans son arboretum qui est déclaré vainqueur. 
+            Si une égalité persiste, les joueurs concernés doivent chacun planter un arbre. Dans cinq ans, le joueur dont l'arbre sera le plus grand remportera défnitivement la partie.</p>
+    
+        <h2>Exemple de décompte</h2>
+        <p>À l'issue de cette partie à 3 joueurs, les différents adversaires possèdent en main les cartes suivantes (les valeurs individuelles des cartes sont indiquées entre parenthèses) :</p>
+        <p><b>Léa :</b> Jacaranda 7 (7), Érable 13 (6+7), Chêne 11 (3+8), Flamboyant 6 (1+5) <br>
+            Léa marque des points pour ses allées de Jacarandas, Chênes et Flamboyants. 
+            Elle ne possède pas d'Érable dans son arboretum, mais ainsi, elle empêche Elliot de marquer des points pour les siens.</p>
+        <p><b>Elliot </b> Épinette bleue 4 (4), Cassia 6 (6), Jacaranda 7 (2+5), Érable 9 (4+5), Flamboyant 3 (3) <br>
+            Elliot marque des points pour ses allées d'Épinette bleues et de Cassias, ainsi que pour son allée de Jacarandas (il était à égalité avec Léa pour obtenir ce droit).</p>
+        <p><b>Olivia :</b> Cassia 5 (5), Cornouiller (2), Chêne (7), Flamboyant 0 (8), Saule pleureur 12 (1+3+8) <br>
+            Olivia marque des points pour ses allées de Cornouillers et de Saule pleureurs. 
+            Elle aurait pu marquer des points pour son allée de Flamboyants, mais Léa avait la carte Flamboyant de valeur "1" en main, annulant la carte de valeur "8" de Olivia .</p>
+        <p class="center"><i>Vous trouverez ci-dessous l'arboretum de Léa en n de partie.
+            Son score final est de 19 points.</i></p>
+        <div class="flex-container">
+            <div class="column">
+                <img src="img/finalexample.png"/>
+            </div>
+            <div class="column">
+                <b style="color: saddlebrown">Allée de Chênes (9 points)</b>
+                <ul>
+                    <li>Longue de 4 cartes = 4 points</li>
+                    <li>Longue d’au moins 4 cartes de la même essence = 4 points</li>
+                    <li>Commence par une carte de valeur "1" = 1 point</li>
+                </ul>
+                <b style="color: rebeccapurple">Allée de Jacarandas (9 points)</b>
+                <ul>
+                    <li>Longue de 5 cartes = 5 points</li>
+                    <li>S'achève par une carte de valeur “8” = 2 points</li>
+                </ul>
+                <b style="color: indianred">Allée d'Érables (9 points)</b>
+                <ul>
+                    <li>Longue de 3 cartes = 3 points</li>
+                </ul>
+            </div>
+        </div>        
+    </body>
+</html>

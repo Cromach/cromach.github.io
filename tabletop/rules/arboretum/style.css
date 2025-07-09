@@ -1,0 +1,164 @@
+﻿/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.3em;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 1rem;
+}
+
+/* Paragraphes et listes */
+p {
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Boîtes d’info ou exemples */
+.info {
+    background: #eef6ff;
+    border-left: 4px solid #3399ff;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+/* Pour les règles spéciales ou avertissements */
+.warning {
+    background: #fff4e5;
+    border-left: 4px solid #ff9900;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+/* Liens */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2rem; /* espace entre les colonnes */
+    margin: 2rem 0;
+}
+
+.column {
+    flex: 1; /* les deux colonnes prennent la même largeur */
+}
+
+/* Responsive : empile les colonnes sur petits écrans */
+@media (max-width: 700px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px; /* évite d’écraser le contenu */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    background-color: #f5f5f5; /* gris clair neutre */
+}
+
+.logo {
+    vertical-align: middle;
+    padding-left: 5px;
+    width: 32px;
+    display: inline-block;
+}
+
+
+/*
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #f1f1f1;
+    }
+
+    .info {
+        background: #1e2a35;
+        border-left-color: #3399ff;
+    }
+
+    .warning {
+        background: #2a1e1e;
+        border-left-color: #ff9900;
+    }
+
+    a {
+        color: #66b0ff;
+    }
+} */
